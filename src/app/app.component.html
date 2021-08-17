@@ -4,4 +4,4 @@
 
 
 <p class="fz-60">Count = {{counter}}</p>
-<p *ngIf="updateAt" class="fz-60">Date of updated {{updateAt}}</p>
+<p *ngIf="updateAt" class="fz-60">Date of updated {{updateAt | date: 'HH:mm:ss dd/MM/yyyy'}}</p>
